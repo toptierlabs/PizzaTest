@@ -45,9 +45,16 @@
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:foursquareUrl parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSArray *venues = [[responseObject objectForKey:@"response"] objectForKey:@"venues"];
+        NSMutableArray *venues = [[responseObject objectForKey:@"response"] objectForKey:@"venues"];
+        NSArray *sortedArray;
+        sortedArray = [venues sortedArrayUsingComparator:^NSComparisonResult(id a, id b) {
+            NSString *name1 = [(NSDictionary *) a objectForKey:@"name"];
+            NSString *name2 = [(NSDictionary *) b objectForKey:@"name"];
+            
+            return [name1 compare:name2];
+        }];
         
-        handler(venues);
+        handler(sortedArray);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
     }];
