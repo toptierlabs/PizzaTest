@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D2F36E6BA3402DA070A2ED8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA1F2C016D1D14BABF11E90 /* libPods.a */; };
+		9B08FA341B98A30D0094E2F7 /* PizzaPlaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B08FA321B98A30D0094E2F7 /* PizzaPlaces.xcdatamodeld */; };
+		9B08FA371B98A3C40094E2F7 /* PizzaRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B08FA361B98A3C40094E2F7 /* PizzaRestaurant.m */; };
+		9B08FA3D1B98B26D0094E2F7 /* UIPizzaPlaceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B08FA3C1B98B26D0094E2F7 /* UIPizzaPlaceDetailsViewController.m */; };
+		9B08FA3F1B98BA3D0094E2F7 /* FoursquareProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B08FA3E1B98BA3D0094E2F7 /* FoursquareProxy.m */; };
+		9B08FA421B98BB4D0094E2F7 /* CoreHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B08FA411B98BB4D0094E2F7 /* CoreHelper.m */; };
 		9BCBBD1E1B9890F80062E1FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBBD1D1B9890F80062E1FB /* main.m */; };
 		9BCBBD211B9890F80062E1FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBBD201B9890F80062E1FB /* AppDelegate.m */; };
-		9BCBBD241B9890F80062E1FB /* PizzaPlace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBBD221B9890F80062E1FB /* PizzaPlace.xcdatamodeld */; };
-		9BCBBD271B9890F80062E1FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBBD261B9890F80062E1FB /* ViewController.m */; };
 		9BCBBD2A1B9890F80062E1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBBD281B9890F80062E1FB /* Main.storyboard */; };
 		9BCBBD2C1B9890F80062E1FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBBD2B1B9890F80062E1FB /* Images.xcassets */; };
 		9BCBBD2F1B9890F80062E1FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBBD2D1B9890F80062E1FB /* LaunchScreen.xib */; };
 		9BCBBD3B1B9890F80062E1FB /* PizzaPlaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBBD3A1B9890F80062E1FB /* PizzaPlaceTests.m */; };
+		9BCBBD4A1B9892E30062E1FB /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBBD491B9892E30062E1FB /* RestaurantCell.xib */; };
+		9BCBBD4D1B98933C0062E1FB /* RestaurantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBBD4C1B98933C0062E1FB /* RestaurantCell.m */; };
+		9BCBBD501B98940B0062E1FB /* RestaurantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBBD4F1B98940B0062E1FB /* RestaurantsViewController.m */; };
+		9BCBBD521B9895F80062E1FB /* New_York_Trip.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBBD511B9895F80062E1FB /* New_York_Trip.gpx */; };
+		9BCBBD551B9897380062E1FB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBBD541B9897380062E1FB /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BA1F2C016D1D14BABF11E90 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B08FA2E1B98989F0094E2F7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9B08FA2F1B989AF80094E2F7 /* FoursquareProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoursquareProxy.h; sourceTree = "<group>"; };
+		9B08FA331B98A30D0094E2F7 /* PizzaPlaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PizzaPlaces.xcdatamodel; sourceTree = "<group>"; };
+		9B08FA351B98A3C40094E2F7 /* PizzaRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaRestaurant.h; sourceTree = "<group>"; };
+		9B08FA361B98A3C40094E2F7 /* PizzaRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaRestaurant.m; sourceTree = "<group>"; };
+		9B08FA3B1B98B26D0094E2F7 /* UIPizzaPlaceDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPizzaPlaceDetailsViewController.h; sourceTree = "<group>"; };
+		9B08FA3C1B98B26D0094E2F7 /* UIPizzaPlaceDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPizzaPlaceDetailsViewController.m; sourceTree = "<group>"; };
+		9B08FA3E1B98BA3D0094E2F7 /* FoursquareProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareProxy.m; sourceTree = "<group>"; };
+		9B08FA401B98BB4D0094E2F7 /* CoreHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreHelper.h; sourceTree = "<group>"; };
+		9B08FA411B98BB4D0094E2F7 /* CoreHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreHelper.m; sourceTree = "<group>"; };
 		9BCBBD181B9890F80062E1FB /* PizzaPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCBBD1C1B9890F80062E1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BCBBD1D1B9890F80062E1FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BCBBD1F1B9890F80062E1FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BCBBD201B9890F80062E1FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9BCBBD231B9890F80062E1FB /* PizzaPlace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PizzaPlace.xcdatamodel; sourceTree = "<group>"; };
-		9BCBBD251B9890F80062E1FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9BCBBD261B9890F80062E1FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9BCBBD291B9890F80062E1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BCBBD2B1B9890F80062E1FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9BCBBD2E1B9890F80062E1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9BCBBD341B9890F80062E1FB /* PizzaPlaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaPlaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCBBD391B9890F80062E1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BCBBD3A1B9890F80062E1FB /* PizzaPlaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaPlaceTests.m; sourceTree = "<group>"; };
+		9BCBBD491B9892E30062E1FB /* RestaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantCell.xib; sourceTree = "<group>"; };
+		9BCBBD4B1B98933C0062E1FB /* RestaurantCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantCell.h; sourceTree = "<group>"; };
+		9BCBBD4C1B98933C0062E1FB /* RestaurantCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantCell.m; sourceTree = "<group>"; };
+		9BCBBD4E1B98940B0062E1FB /* RestaurantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantsViewController.h; sourceTree = "<group>"; };
+		9BCBBD4F1B98940B0062E1FB /* RestaurantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantsViewController.m; sourceTree = "<group>"; };
+		9BCBBD511B9895F80062E1FB /* New_York_Trip.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = New_York_Trip.gpx; sourceTree = "<group>"; };
+		9BCBBD541B9897380062E1FB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D167517B3613F36F83AEE64E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F1576233726176639AF55988 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2F36E6BA3402DA070A2ED8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B08FA2B1B98985B0094E2F7 /* Auxiliar */ = {
+			isa = PBXGroup;
+			children = (
+				9B08FA2E1B98989F0094E2F7 /* Constants.h */,
+				9B08FA2F1B989AF80094E2F7 /* FoursquareProxy.h */,
+				9B08FA3E1B98BA3D0094E2F7 /* FoursquareProxy.m */,
+			);
+			path = Auxiliar;
+			sourceTree = "<group>";
+		};
 		9BCBBD0F1B9890F80062E1FB = {
 			isa = PBXGroup;
 			children = (
+				9BCBBD541B9897380062E1FB /* Podfile */,
 				9BCBBD1A1B9890F80062E1FB /* PizzaPlace */,
 				9BCBBD371B9890F80062E1FB /* PizzaPlaceTests */,
 				9BCBBD191B9890F80062E1FB /* Products */,
+				F1D9C5F9138747618426256D /* Pods */,
+				B7FD3E59000BCF13EE54CA35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +123,15 @@
 		9BCBBD1A1B9890F80062E1FB /* PizzaPlace */ = {
 			isa = PBXGroup;
 			children = (
+				9B08FA2B1B98985B0094E2F7 /* Auxiliar */,
+				9BCBBD531B98963B0062E1FB /* CoreData */,
+				9BCBBD441B9892B90062E1FB /* CustomCells */,
+				9BCBBD451B9892B90062E1FB /* ViewControllers */,
 				9BCBBD1F1B9890F80062E1FB /* AppDelegate.h */,
 				9BCBBD201B9890F80062E1FB /* AppDelegate.m */,
-				9BCBBD251B9890F80062E1FB /* ViewController.h */,
-				9BCBBD261B9890F80062E1FB /* ViewController.m */,
 				9BCBBD281B9890F80062E1FB /* Main.storyboard */,
 				9BCBBD2B1B9890F80062E1FB /* Images.xcassets */,
 				9BCBBD2D1B9890F80062E1FB /* LaunchScreen.xib */,
-				9BCBBD221B9890F80062E1FB /* PizzaPlace.xcdatamodeld */,
 				9BCBBD1B1B9890F80062E1FB /* Supporting Files */,
 			);
 			path = PizzaPlace;
@@ -99,6 +140,7 @@
 		9BCBBD1B1B9890F80062E1FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BCBBD511B9895F80062E1FB /* New_York_Trip.gpx */,
 				9BCBBD1C1B9890F80062E1FB /* Info.plist */,
 				9BCBBD1D1B9890F80062E1FB /* main.m */,
 			);
@@ -122,6 +164,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9BCBBD441B9892B90062E1FB /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				9BCBBD491B9892E30062E1FB /* RestaurantCell.xib */,
+				9BCBBD4B1B98933C0062E1FB /* RestaurantCell.h */,
+				9BCBBD4C1B98933C0062E1FB /* RestaurantCell.m */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		9BCBBD451B9892B90062E1FB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BCBBD4E1B98940B0062E1FB /* RestaurantsViewController.h */,
+				9BCBBD4F1B98940B0062E1FB /* RestaurantsViewController.m */,
+				9B08FA3B1B98B26D0094E2F7 /* UIPizzaPlaceDetailsViewController.h */,
+				9B08FA3C1B98B26D0094E2F7 /* UIPizzaPlaceDetailsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9BCBBD531B98963B0062E1FB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9B08FA401B98BB4D0094E2F7 /* CoreHelper.h */,
+				9B08FA411B98BB4D0094E2F7 /* CoreHelper.m */,
+				9B08FA321B98A30D0094E2F7 /* PizzaPlaces.xcdatamodeld */,
+				9B08FA351B98A3C40094E2F7 /* PizzaRestaurant.h */,
+				9B08FA361B98A3C40094E2F7 /* PizzaRestaurant.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B7FD3E59000BCF13EE54CA35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA1F2C016D1D14BABF11E90 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1D9C5F9138747618426256D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1576233726176639AF55988 /* Pods.debug.xcconfig */,
+				D167517B3613F36F83AEE64E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BCBBD3E1B9890F80062E1FB /* Build configuration list for PBXNativeTarget "PizzaPlace" */;
 			buildPhases = (
+				86CEC99241E6928F9025A090 /* Check Pods Manifest.lock */,
 				9BCBBD141B9890F80062E1FB /* Sources */,
 				9BCBBD151B9890F80062E1FB /* Frameworks */,
 				9BCBBD161B9890F80062E1FB /* Resources */,
+				B2A302BCE1E63B458249E23B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +296,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCBBD551B9897380062E1FB /* Podfile in Resources */,
+				9BCBBD521B9895F80062E1FB /* New_York_Trip.gpx in Resources */,
+				9BCBBD4A1B9892E30062E1FB /* RestaurantCell.xib in Resources */,
 				9BCBBD2A1B9890F80062E1FB /* Main.storyboard in Resources */,
 				9BCBBD2F1B9890F80062E1FB /* LaunchScreen.xib in Resources */,
 				9BCBBD2C1B9890F80062E1FB /* Images.xcassets in Resources */,
@@ -217,15 +314,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86CEC99241E6928F9025A090 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A302BCE1E63B458249E23B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BCBBD141B9890F80062E1FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCBBD241B9890F80062E1FB /* PizzaPlace.xcdatamodeld in Sources */,
+				9B08FA3F1B98BA3D0094E2F7 /* FoursquareProxy.m in Sources */,
+				9BCBBD4D1B98933C0062E1FB /* RestaurantCell.m in Sources */,
+				9B08FA421B98BB4D0094E2F7 /* CoreHelper.m in Sources */,
 				9BCBBD211B9890F80062E1FB /* AppDelegate.m in Sources */,
-				9BCBBD271B9890F80062E1FB /* ViewController.m in Sources */,
+				9B08FA371B98A3C40094E2F7 /* PizzaRestaurant.m in Sources */,
+				9B08FA341B98A30D0094E2F7 /* PizzaPlaces.xcdatamodeld in Sources */,
+				9BCBBD501B98940B0062E1FB /* RestaurantsViewController.m in Sources */,
 				9BCBBD1E1B9890F80062E1FB /* main.m in Sources */,
+				9B08FA3D1B98B26D0094E2F7 /* UIPizzaPlaceDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +484,7 @@
 		};
 		9BCBBD3F1B9890F80062E1FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1576233726176639AF55988 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PizzaPlace/Info.plist;
@@ -359,6 +495,7 @@
 		};
 		9BCBBD401B9890F80062E1FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D167517B3613F36F83AEE64E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PizzaPlace/Info.plist;
@@ -420,6 +557,7 @@
 				9BCBBD401B9890F80062E1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BCBBD411B9890F80062E1FB /* Build configuration list for PBXNativeTarget "PizzaPlaceTests" */ = {
 			isa = XCConfigurationList;
@@ -428,17 +566,18 @@
 				9BCBBD431B9890F80062E1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9BCBBD221B9890F80062E1FB /* PizzaPlace.xcdatamodeld */ = {
+		9B08FA321B98A30D0094E2F7 /* PizzaPlaces.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9BCBBD231B9890F80062E1FB /* PizzaPlace.xcdatamodel */,
+				9B08FA331B98A30D0094E2F7 /* PizzaPlaces.xcdatamodel */,
 			);
-			currentVersion = 9BCBBD231B9890F80062E1FB /* PizzaPlace.xcdatamodel */;
-			path = PizzaPlace.xcdatamodeld;
+			currentVersion = 9B08FA331B98A30D0094E2F7 /* PizzaPlaces.xcdatamodel */;
+			path = PizzaPlaces.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

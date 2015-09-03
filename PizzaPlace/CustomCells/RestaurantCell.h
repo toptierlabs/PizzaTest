@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RestaurantCell.h
 //  PizzaPlace
 //
 //  Created by Anthony Figueroa on 9/3/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RestaurantCell : UITableViewCell
 
+@property(weak, nonatomic) IBOutlet UILabel *restaurantName;
 
 @end
-
